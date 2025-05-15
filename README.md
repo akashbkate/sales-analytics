@@ -32,11 +32,11 @@ Before running the project, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/akash-kate/sales-analytics.git
+1. git clone https://github.com/akash-kate/sales-analytics.git
 cd sales-analytics
 
 # Open PostgreSQL CLI or any DB GUI like pgAdmin
-CREATE DATABASE sales_db;
+2. CREATE DATABASE sales_db;
 
 3. Configure DB Connection
 Update the DB credentials in config/db.go or use environment variables if supported.
